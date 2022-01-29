@@ -6,12 +6,14 @@
   "scripts": {
     "build": "remix build",
     "dev": "cross-env NODE_ENV=development netlify dev",
+    "dev0": "remix dev",
     "postinstall": "remix setup node"
   },
   "dependencies": {
     "@netlify/functions": "^0.10.0",
     "@react-three/drei": "^8.6.0",
     "@react-three/fiber": "^7.0.24",
+    "@react-three/postprocessing": "^2.1.2",
     "@remix-run/netlify": "^1.1.1",
     "@remix-run/react": "^1.1.1",
     "@types/three": "^0.136.1",
